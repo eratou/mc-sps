@@ -45,7 +45,7 @@ public class Kentiku{
 		LITE_SMOKER=BLOCKS.register("lite_smoker_block",BlockLiteSmoker::new);
 		ITEMS.register("smoker_block",()->new BlockItem(SMOKER.get(),new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		ITEMS.register("lite_smoker_block",()->new BlockItem(LITE_SMOKER.get(),new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		SMOKER_ENTITY=TILE_ENTITYS.register("smoker_block",() -> BlockEntityType.Builder.of(SmokerEntity::new,SMOKER.get()).build(null));
+		SMOKER_ENTITY=TILE_ENTITYS.register("jp.eratou.tile_smoker",() -> BlockEntityType.Builder.of(SmokerEntity::new,SMOKER.get()).build(null));
 
 		BLOCKS.register(modEventBus);
 		ITEMS.register(modEventBus);
