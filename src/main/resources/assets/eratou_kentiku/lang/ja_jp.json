@@ -1,0 +1,9 @@
+{
+	"item.eratou_kentiku.fill_tool_replace": "一括設置ツール(置き換え)%s",
+	"item.eratou_kentiku.fill_tool_keep": "一括設置ツール(維持)%s",
+	"item.eratou_kentiku.fill_tool_remove": "一括設置ツール(撤去)%s",
+	"block.eratou_kentiku.marker_block": "マーカー",
+	"itemGroup.kentiku": "建築補助Mod",
+	"block.eratou_kentiku.smoker_block": "煙発生源",
+	"block.eratou_kentiku.lite_smoker_block": "煙発生源(軽量版)"
+}
